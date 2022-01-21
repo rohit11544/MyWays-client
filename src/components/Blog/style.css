@@ -1,0 +1,57 @@
+.float {
+  float: left;
+}
+.writer {
+  margin-left: -82px;
+  width: 700px;
+  height: auto;
+}
+.fa-thumbs-up:hover {
+  cursor: pointer;
+}
+
+.comment {
+  float: right;
+  margin-right: 550px;
+}
+.head-style {
+  float: left;
+  margin-left: 5px;
+}
+.date {
+  float: left;
+  margin-left: 50px;
+  color: rgb(179, 179, 204);
+}
+
+.circle {
+  margin-left: 10px;
+  float: left;
+}
+.read {
+  margin-left: 10px;
+  float: left;
+  color: rgb(102, 102, 153);
+}
+
+.share-btn {
+  margin-left: 280px;
+  float: left;
+  color: blue;
+}
+.size-style {
+  width: 50%;
+}
+
+.h4-style {
+  float: left;
+  margin-left: 100px;
+}
+.button-style {
+  margin-left: 1300px;
+}
+
+.button-color {
+  background-color: #035d1c;
+  color: white;
+}
