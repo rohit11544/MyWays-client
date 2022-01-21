@@ -2,7 +2,6 @@ import React from "react";
 import { useSelector } from "react-redux";
 import Navbar from "../Navbar/Navbar";
 import Blogs from "./Blogs";
-import Footer from "../Footer/Footer";
 import "./style.css";
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
       <h2 className="heading-btn">MyWays Blogs</h2>
       <br />
       <Blogs blogs={blog} />
-      <Footer />
     </>
   );
 }
