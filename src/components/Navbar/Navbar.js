@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="container-fluid justify-content-start">
           <Link className="navbar-brand" to="/">
             <img
-              src="https://myways.ai/static/media/newFavicon.a6e8cb85.png"
+              src="https://s3.ap-south-1.amazonaws.com/assets.ynos.in/startup-logos/YNOS349642.jpg"
               alt=""
               width={30}
               height={30}
