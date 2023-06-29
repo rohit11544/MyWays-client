@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <img
-              src="https://myways.ai/static/media/newFavicon.a6e8cb85.png"
+              src="https://s3.ap-south-1.amazonaws.com/assets.ynos.in/startup-logos/YNOS349642.jpg"
               alt=""
               width={75}
               height={75}
