@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //--------------------------------------Admin----------------------------------------------------------
-const urlAdmin = "https://my-way-server.herokuapp.com/admin";
+const urlAdmin = "https://blog-myways-server-code.vercel.app/admin";
 
 export const fetchAdmin = () => axios.get(urlAdmin);
 
@@ -13,7 +13,7 @@ export const updateAdmin = (id, updateAdmin) =>
 export const deleteAdmin = (id) => axios.delete(`${urlAdmin}/${id}`);
 
 //--------------------------------------user---------------------------------------------------------
-const urlUser = "https://my-way-server.herokuapp.com/user";
+const urlUser = "https://blog-myways-server-code.vercel.app/user";
 
 export const fetchUser = () => axios.get(urlUser);
 
@@ -25,7 +25,7 @@ export const updateUser = (id, updateUser) =>
 export const deleteUser = (id) => axios.delete(`${urlUser}/${id}`);
 
 //--------------------------------------blog---------------------------------------------------------
-const urlBlog = "https://my-way-server.herokuapp.com/blog";
+const urlBlog = "https://blog-myways-server-code.vercel.app/blog";
 
 export const fetchBlog = () => axios.get(urlBlog);
 
